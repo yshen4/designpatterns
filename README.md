@@ -2,6 +2,7 @@
 
 In this repository, I will review several most commonly used design patterns:
 - Singleton: [singleton2.py](singleton/singleton2.py)
+  ![Singleton](singleton/singleton.gif?raw=true "Singleton Pattern")
 - Builder
 - Prototype
 - Adapter
