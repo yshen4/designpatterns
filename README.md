@@ -1,7 +1,8 @@
 # A review of design patterns
 
 In this repository, I will review several most commonly used design patterns:
-- Singleton: [singleton2.py](singleton/singleton2.py)
+- Singleton([singleton2.py](singleton/singleton2.py), [singleton.hpp](singleton/singleton.hpp))
+
   The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance.
   
   The singleton design pattern solves problems like:
