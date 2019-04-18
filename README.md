@@ -1,7 +1,7 @@
 # A review of design patterns
 
 In this repository, I will review several most commonly used design patterns:
-- Singleton
+- Singleton: [singleton2.py](singleton/singleton2.py)
 - Builder
 - Prototype
 - Adapter
