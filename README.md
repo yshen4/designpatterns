@@ -1,7 +1,21 @@
 # A review of design patterns
 
 In this repository, I will review several most commonly used design patterns:
-- Singleton
+- Singleton([singleton2.py](singleton/singleton2.py), [singleton.hpp](singleton/singleton.hpp))
+
+  The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance.
+  
+  The singleton design pattern solves problems like:
+  - How can it be ensured that a class has only one instance?
+  - How can the sole instance of a class be accessed easily?
+  - How can a class control its instantiation?
+  - How can the number of instances of a class be restricted?
+  - How to hide the constructor of the class.
+  - Define a public static operation (getInstance()) that returns the sole instance of the class.
+  
+  ----
+  ![Singleton](singleton/singleton.gif?raw=true "Singleton Pattern")
+  ----
 - Builder
 - Prototype
 - Adapter
