@@ -119,6 +119,103 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j-0XyvqoSV3plnfdKzgo-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;1: Clarify ambiguities&lt;/h1&gt;&lt;p&gt;1. Is the shortened URL available world wide?&lt;/p&gt;&lt;p&gt;2. How short should URL be?&lt;/p&gt;&lt;p&gt;3. Do we support removing/updating the long URL?&lt;/p&gt;&lt;p&gt;4. Do we support redirect with shortened URL?&lt;/p&gt;&lt;p&gt;5. What users/QPS do we support?&lt;/p&gt;&lt;p&gt;6. Do we support high availability/fault tolerance/reliability?&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="10" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="j-0XyvqoSV3plnfdKzgo-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;2: Define requirements&lt;/h1&gt;&lt;p&gt;F1: shorten a long URL&lt;br&gt;&lt;/p&gt;&lt;p&gt;POST shorten.url&lt;/p&gt;&lt;p&gt;Payload: long URL&lt;/p&gt;&lt;p&gt;Response&lt;/p&gt;&lt;p&gt;- status&lt;/p&gt;&lt;p&gt;- shortened URL&lt;/p&gt;&lt;p&gt;F2: redirect a shortened URL&lt;/p&gt;&lt;p&gt;GET shorten.url/shortenedURL&lt;/p&gt;&lt;p&gt;Response:&lt;/p&gt;&lt;p&gt;If the shortened URL exists, redirect to the long URL&lt;/p&gt;&lt;p&gt;If it doesn&#39;t exist:&lt;/p&gt;&lt;p&gt;- Status: 400&lt;/p&gt;&lt;p&gt;- Message: URL doesn&#39;t exist&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;NF1: Highly available&lt;/p&gt;&lt;p&gt;NF2: Highly reliable&lt;/p&gt;&lt;p&gt;NF3: Recover from server failures&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Key areas to deep dive:&lt;/p&gt;&lt;p&gt;1. How to generate the shortened URL from a long URL?&lt;/p&gt;&lt;p&gt;2. How to persist the map from Long URL to shortened URL and vice versa&lt;/p&gt;&lt;p&gt;3. How to look for the long URL from shortened URL and redirect?&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="250" width="380" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-4" value="Shorten URL Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-6" value="string createShortURL(string longURL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-7" value="Key-value store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-9" value="string getLongURL(string shortURL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.375;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="guSNVkbybVPIQuS8Ptd2-6" target="guSNVkbybVPIQuS8Ptd2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;" edge="1" parent="1" source="guSNVkbybVPIQuS8Ptd2-7" target="guSNVkbybVPIQuS8Ptd2-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="720" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="guSNVkbybVPIQuS8Ptd2-6" target="guSNVkbybVPIQuS8Ptd2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="guSNVkbybVPIQuS8Ptd2-9" target="guSNVkbybVPIQuS8Ptd2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="641" y="414" as="sourcePoint" />
+            <mxPoint x="620" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="100" as="sourcePoint" />
+            <mxPoint x="420" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-18" value="createShortenURL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="guSNVkbybVPIQuS8Ptd2-15">
+          <mxGeometry x="0.1455" relative="1" as="geometry">
+            <mxPoint x="7" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="sourcePoint" />
+            <mxPoint x="380" y="129.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-17" value="Redirect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="guSNVkbybVPIQuS8Ptd2-16">
+          <mxGeometry x="-0.0545" relative="1" as="geometry">
+            <mxPoint x="-1" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Deep dive&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;/h1&gt;&lt;h3 style=&quot;font-size: 12px;&quot;&gt;1. QPS (read and write)&lt;/h3&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Total users 100M&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;- Write(1 per 10 days): 100M/(10^5*10)=100 WPS&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;- Read(10 per day): 10x100M/(10^5)=10000 RPS&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Typical RDBMS supports 200 writes/s on SSD, 100 writes/s on HD. RDBMS QPS depends on the data size and if JOIN is involved. But because RDBMS is difficult to scale out horizontally, its QPS is around 100 ~ 200 QPS too.&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Cassandra/ScyllaDB or other NoSQL databases provide higher write/read throughputs for READ.&lt;/p&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;2. How to generate the shortened URL from a long URL?&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Option 1:&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Long URL --&amp;gt; counter -&amp;gt; BASE64 encodes counter as shorten URL&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; Pro: no key collision&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; Con: depend on counter which shared by all nodes.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Option 2: Long URL --&amp;gt; Hashcode -&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BASE64 encodes counter as shorten URL&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; Pro: independence of any service or store&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; Con: key collision&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Cassandra/ScyllaDB has counter data type, which&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;supports atomic update like RDBMS&amp;nbsp; transactions. We should choose option 1.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;3. How to persist the map from Long URL to shortened URL and vice versa&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;We will build 2 maps: from long URL to short URL, and from short URL to long URL.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;1. Create&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;4.&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;How to look for the long URL from shortened URL and redirect?&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="760" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-20" value="Shorten URL Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-21" value="Shorten URL Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-22" value="Shorten URL Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-23" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=load_balancer;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="420" y="89.5" width="80" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="guSNVkbybVPIQuS8Ptd2-23" target="guSNVkbybVPIQuS8Ptd2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="210" as="sourcePoint" />
+            <mxPoint x="580" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-25" value="Key-value store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-26" value="Key-value store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="470" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="guSNVkbybVPIQuS8Ptd2-27" value="Key-value store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="525" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
