@@ -836,6 +836,108 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="stPAzTGxLl_2oFlFGBB--1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;1. Requirement&lt;/h1&gt;&lt;p&gt;F1. Ingest click event format: event_id, ad_id, timestamp, user_id, ip, address, etc&lt;/p&gt;&lt;p&gt;F2. Data volume: 1 billion clicks/day, 2 millions ads&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; TPS = 1 x 10^9/10^5 = 10K&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; Data size for a year = 1 x 10^9 x 1K x 365 = 365T/year&lt;/p&gt;&lt;p&gt;F3. Does the event come individually in real time or in batch?&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; In batch&lt;/p&gt;&lt;p&gt;F4. How to query the ad clicks? fixed or flexible&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Total clicks by ad_id and time range&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(by minute, hour, or day)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;GET URL/:ad_id?tstart=&amp;amp;tend=&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Top N clicked ads in a time range (by minute, hour, or day)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;GET URL/top?n=100&amp;amp;tstart=&amp;amp;tend=&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Ad clicks filter by time range, user, or address&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(by minute, hour, or day)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET URL/ads?tstart=&amp;amp;tend=&amp;amp;addr=&amp;amp;page=&amp;amp;size=&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;NF1. Consistency? eventual consistency is OK?&lt;/p&gt;&lt;p&gt;NF2. Duplicated events?&lt;/p&gt;&lt;p&gt;NF3. Aggregated API:&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - time range: &amp;lt; 7 days&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - concurrency: qps&amp;nbsp; &amp;lt; 10 calls/seconds&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - N &amp;lt;= 100&lt;/p&gt;&lt;p&gt;NF4 . Latency: from ingestion to querable &amp;lt; 5 minutes&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="20" width="480" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--2" value="Click events in batch from service 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--3" target="stPAzTGxLl_2oFlFGBB--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--3" value="Input queue" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="216" width="73.5" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--4" value="Data Aggregation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--5" target="stPAzTGxLl_2oFlFGBB--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--5" value="Click events in batch from service 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--6" value="Click events in batch from service 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--7" value="Ad clicks DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="920" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--8" target="stPAzTGxLl_2oFlFGBB--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--8" value="Data Query Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--2" target="stPAzTGxLl_2oFlFGBB--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="340" as="sourcePoint" />
+            <mxPoint x="870" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--6" target="stPAzTGxLl_2oFlFGBB--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="340" as="sourcePoint" />
+            <mxPoint x="870" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--20" target="stPAzTGxLl_2oFlFGBB--7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="340" as="sourcePoint" />
+            <mxPoint x="870" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--7" target="stPAzTGxLl_2oFlFGBB--8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="350" as="sourcePoint" />
+            <mxPoint x="870" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--15" value="API gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="201" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deep dive&lt;/h1&gt;&lt;p&gt;1. Ingestion throughput and latency&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Add a queue, and multiple consumers, so that it autoscale&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Monitor queue length and message age&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Add DLQ for failed events.&lt;/p&gt;&lt;p&gt;2. Database choice and data schema&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - NoSQL vs SQL: choose NoSQL for fixed queries, add materialed view for different queries&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- Cassandra/ScyllaDB/DDB: partition with consistent hashing, replica, fault tolerant&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- Tunable consistency&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- Fast response&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- Schema:&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; partition key: ad_id&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sort_key: timestamp (by minute)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value: clicks, address,&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;3. Query latency&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- Add cache in Data Query Service&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- Key: ad_id, time with TTL set to N minutes&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="670" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--18" value="Data Aggregation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--19" value="Data Aggregation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--20" value="Data Aggregation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--21" target="stPAzTGxLl_2oFlFGBB--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--21" value="DLQ" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="106" width="90" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--4" target="stPAzTGxLl_2oFlFGBB--21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="360" as="sourcePoint" />
+            <mxPoint x="730" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--23" target="stPAzTGxLl_2oFlFGBB--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--23" value="Redrive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="616.75" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="stPAzTGxLl_2oFlFGBB--26" target="stPAzTGxLl_2oFlFGBB--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--26" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cache_node;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="350" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--28" value="Ad clicks DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="980" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPAzTGxLl_2oFlFGBB--29" value="Ad clicks DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="860" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
