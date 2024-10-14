@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17" pages="2">
   <diagram id="swXGphNpvIYbbXM5C8od" name="TSDBv1">
-    <mxGraphModel dx="1266" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1427" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,13 +26,13 @@
           <mxGeometry x="280" y="179" width="68.92" height="56" as="geometry" />
         </mxCell>
         <mxCell id="ZQchCDB8Zwt-naNgQo28-9" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="60" y="50" width="62" height="62" as="geometry" />
+          <mxGeometry x="40" y="90" width="62" height="62" as="geometry" />
         </mxCell>
         <mxCell id="ZQchCDB8Zwt-naNgQo28-10" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="60" y="231" width="62" height="62" as="geometry" />
+          <mxGeometry x="44" y="257" width="62" height="62" as="geometry" />
         </mxCell>
         <mxCell id="ZQchCDB8Zwt-naNgQo28-11" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="60" y="141" width="62" height="62" as="geometry" />
+          <mxGeometry x="40" y="177" width="62" height="62" as="geometry" />
         </mxCell>
         <mxCell id="ZQchCDB8Zwt-naNgQo28-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZQchCDB8Zwt-naNgQo28-11" target="qLi3Aov7Bp-ud-mRo5AY-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -273,180 +273,268 @@
     </mxGraphModel>
   </diagram>
   <diagram name="TSDBv2" id="gxtsGuckOuuEv41V6lsx">
-    <mxGraphModel dx="1266" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="wIyueprsmDtA_w2bcTz_-0" />
         <mxCell id="wIyueprsmDtA_w2bcTz_-1" parent="wIyueprsmDtA_w2bcTz_-0" />
-        <mxCell id="wIyueprsmDtA_w2bcTz_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-8" target="wIyueprsmDtA_w2bcTz_-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="172" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-8" value="输入队列" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-8" value="输入队列" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;dashed=1;strokeWidth=3;imageBorder=default;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
           <mxGeometry x="301.08" y="144" width="68.92" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-9" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-9" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
           <mxGeometry x="60" y="50" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-10" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-10" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
           <mxGeometry x="60" y="231" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-11" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-11" value="。。。" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
           <mxGeometry x="60" y="141" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-11" target="wIyueprsmDtA_w2bcTz_-58">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-11" target="wIyueprsmDtA_w2bcTz_-58" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="270" as="sourcePoint" />
             <mxPoint x="250" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-10" target="wIyueprsmDtA_w2bcTz_-58">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-10" target="wIyueprsmDtA_w2bcTz_-58" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="340" as="sourcePoint" />
             <mxPoint x="250" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-46" target="wIyueprsmDtA_w2bcTz_-17">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" target="wIyueprsmDtA_w2bcTz_-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="170" as="sourcePoint" />
+            <mxPoint x="500" y="172" as="sourcePoint" />
             <mxPoint x="590" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-15" value="实时数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wIyueprsmDtA_w2bcTz_-14">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-15" value="实时数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wIyueprsmDtA_w2bcTz_-14" vertex="1" connectable="0">
           <mxGeometry x="0.1148" y="4" relative="1" as="geometry">
             <mxPoint x="-15" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-16" value="数据API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="194.19" y="450" width="65" height="60" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-16" value="数据API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="188.04" y="450" width="67.23" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-17" target="I9ZEStOQLEingdoyoiV5-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-6" value="消息：文件创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9ZEStOQLEingdoyoiV5-3">
-          <mxGeometry x="-0.2083" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-17" value="HDFS/OSS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-17" value="SAN" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
           <mxGeometry x="590" y="132" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-20" value="深度存储：原始数据/元数据/特征&lt;div&gt;HDFS/阿里云OSS/AWS S3&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="520" y="82" width="200" height="30" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-20" value="深度存储：原始数据/元数据/特征&lt;div&gt;SAN/阿里云OSS/AWS S3&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="540" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-26" value="实时存储：ScyllaDB/Aerospike&lt;div&gt;元数据+实时特征&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="550" y="520" width="170" height="30" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-26" value="实时存储：ScyllaDB/Aerospike&lt;div&gt;元数据+实时特征&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="540" y="590" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="565" as="sourcePoint" />
-            <mxPoint x="490" y="410" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="wIyueprsmDtA_w2bcTz_-31" value="数据用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="69.99999999999997" y="360" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-28" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;实时/历史数据&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="wIyueprsmDtA_w2bcTz_-27">
-          <mxGeometry x="-0.0792" y="-1" relative="1" as="geometry">
-            <mxPoint x="6" y="-49" as="offset" />
-          </mxGeometry>
+        <mxCell id="wIyueprsmDtA_w2bcTz_-32" value="。。。" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="69.99999999999997" y="450" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-31" value="数据用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="59.99999999999997" y="400" width="30" height="60" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-33" value="数据用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="70" y="540" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-32" value="数据用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="59.99999999999997" y="500" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-33" value="数据用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="60" y="610" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-16" target="wIyueprsmDtA_w2bcTz_-31">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-16" target="wIyueprsmDtA_w2bcTz_-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="304.46" y="440" as="sourcePoint" />
             <mxPoint x="224.45999999999998" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-16" target="wIyueprsmDtA_w2bcTz_-32">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-16" target="wIyueprsmDtA_w2bcTz_-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="272.46" y="510" as="sourcePoint" />
             <mxPoint x="229.45999999999998" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-16" target="wIyueprsmDtA_w2bcTz_-33">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-16" target="wIyueprsmDtA_w2bcTz_-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="282.46" y="520" as="sourcePoint" />
             <mxPoint x="239.45999999999998" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.984;exitY=0.726;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-9" target="wIyueprsmDtA_w2bcTz_-58">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.984;exitY=0.726;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-9" target="wIyueprsmDtA_w2bcTz_-58" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="100" as="sourcePoint" />
             <mxPoint x="450" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-39" value="用户/权限" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="196.69000000000003" y="610" width="60" height="80" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-39" value="用户/权限" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="175" y="630" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-39" target="wIyueprsmDtA_w2bcTz_-16">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-39" target="wIyueprsmDtA_w2bcTz_-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="500" as="sourcePoint" />
             <mxPoint x="450" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-45" value="" style="group" vertex="1" connectable="0" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="410" y="142" width="110" height="80" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-56" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;数据量估计&lt;/h3&gt;&lt;div&gt;- 100 设备&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;30 天实时数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- 1 年1小时粒度历史数据&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 10 年1天&lt;span style=&quot;background-color: initial;&quot;&gt;粒度&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;历史数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;原始数据&lt;/h3&gt;&lt;/div&gt;&lt;h4&gt;30 天实时原始数据&lt;/h4&gt;&lt;p&gt;- 采样频率： 5分钟一次&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：100M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：100M x 24&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;12&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=30G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30G&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;3T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备30&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3T = 90T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;依据阿里云OSS的报价，实时数据每年需要支付15万用于实时数据&lt;span style=&quot;background-color: initial;&quot;&gt;存储&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。但是我们可以优化存储：压缩，有目的的存储有用数据，可以进一步降低存储费用。&lt;/span&gt;&lt;/p&gt;&lt;table style=&quot;border-collapse: collapse;&quot; class=&quot;t1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.PingFang SC&amp;quot;;&quot; class=&quot;p1&quot;&gt;存储规格&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.PingFang SC&amp;quot;;&quot; class=&quot;p1&quot;&gt;年价（买&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;s1&quot;&gt; 9 &lt;/span&gt;送&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;s1&quot;&gt; 3&lt;/span&gt;）&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;100 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;156,672&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;200 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;313,344&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;300 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;442,368&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;3 年1小时粒度&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;原始数&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;据&lt;/span&gt;&lt;/h4&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;采样频率： 60分钟一次&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：100M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：100M x 24&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=2.4G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;2.4G&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;240G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备1000天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1000&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;240&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;G = 240T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;依据阿里云OSS的报价，实时数据每年需要支付45万用于历史&lt;span style=&quot;background-color: initial;&quot;&gt;原始数&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;据&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;存储&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。但是我们可以优化存储：压缩，有目的的存储有用数据，可以进一步降低存储费用。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;特征数据&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;100天实时特征数据&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- 采样频率： 5分钟一次&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：1M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：1M x 24&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;12&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=300M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;300M&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备100天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;30G = 3T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3 年1小时粒度&lt;b style=&quot;background-color: initial;&quot;&gt;特征数据&lt;/b&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;采样频率： 60分钟一次&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：1M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：1M x 24&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=24M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;24M&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2.4G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备1000天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1000&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2.4&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;G = 2.4T&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设计&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;根据上述估计，特征数据需要6T的存储空间。为了减低运维成本，使用不需要拓扑发现的scylladb/aerospike/Cassandra是比较可行的选择。&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/Cassandra有特高的写吞吐，而且它们的写操作内部是基于内存日志的，和队列具有相同的逻辑。我们选择&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;假设一个&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb节点有2T的SSD，冗余乘数为3，6T的数据需要6T x 3 = 18T，&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/Cassandra要求系统保留50%的空余空间，需要36&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;T的SSD，所以需要36/2=18个节点。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="50" y="850" width="760" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-46" value="数据存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-45">
-          <mxGeometry width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;数据量估计:&lt;/h1&gt;&lt;div&gt;- 10 区域&lt;/div&gt;&lt;div&gt;- 100 设备/区域&lt;/div&gt;&lt;div&gt;- 10 天实时数据&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 1 年1小时粒度历史数据&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 10 年1天&lt;span style=&quot;background-color: initial;&quot;&gt;粒度&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;历史数据&lt;/span&gt;&lt;/div&gt;&lt;p&gt;10 天实时数据&lt;br&gt;&lt;/p&gt;&lt;p&gt;- 采样频率： 1/10HZ&lt;/p&gt;&lt;p&gt;- 100M/5分/设备&lt;/p&gt;&lt;p&gt;- 100M x 300/设备&lt;span style=&quot;background-color: initial;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=30G&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 1000&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30G&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天 =&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30T/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 10&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;30T&lt;span style=&quot;background-color: initial;&quot;&gt;/10&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天 =&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;300T/10&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;依据阿里云OSS的报价，实时数据每年需要支付1.5到2千万实时数据&lt;span style=&quot;background-color: initial;&quot;&gt;存储&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。但是我们可以优化存储：压缩，有目的的存储有用数据&lt;/span&gt;&lt;/p&gt;&lt;table style=&quot;border-collapse: collapse;&quot; class=&quot;t1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.PingFang SC&amp;quot;;&quot; class=&quot;p1&quot;&gt;存储规格&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.PingFang SC&amp;quot;;&quot; class=&quot;p1&quot;&gt;年价（买&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;s1&quot;&gt; 9 &lt;/span&gt;送&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;s1&quot;&gt; 3&lt;/span&gt;）&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;100 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;156,672&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;200 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;313,344&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;300 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;442,368&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;1 年1小时粒度历史数据&lt;br&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;1M/1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;小时&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 1M x 10000/&lt;/span&gt;设备&lt;span style=&quot;background-color: initial;&quot;&gt;/年&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=10G/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/年&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 1000 x 10G/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;= 10T/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;div&gt;10 年1天&lt;span style=&quot;background-color: initial;&quot;&gt;粒度&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;历史数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;1M/&lt;/span&gt;天&lt;span style=&quot;background-color: initial;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 1M x 365/&lt;/span&gt;设备&lt;span style=&quot;background-color: initial;&quot;&gt;/年&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=365M/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/年&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 10&lt;/span&gt;&amp;nbsp;x&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;1000 x&amp;nbsp;&lt;/span&gt;365M&lt;span style=&quot;background-color: initial;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;= 3.65T/10&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;p&gt;依据阿里云OSS的报价，历史数据每年需要支付不多于10万的存储费用。&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="50" y="750" width="640" height="690" as="geometry" />
-        </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-58" target="wIyueprsmDtA_w2bcTz_-8">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-58" target="wIyueprsmDtA_w2bcTz_-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-58" value="采集API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="198.92000000000002" y="143" width="55.54" height="58" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-58" value="采集API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="194.19" y="138.5" width="61.08" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-59" value="缓存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="301.08" y="510" width="60" height="80" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-59" value="缓存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;dashed=1;strokeWidth=3;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="395" y="540" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-60" value="聚合数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="301.08" y="370" width="60" height="80" as="geometry" />
+        <mxCell id="wIyueprsmDtA_w2bcTz_-60" value="聚合数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="590" y="490" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-59" target="wIyueprsmDtA_w2bcTz_-16">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-59" target="wIyueprsmDtA_w2bcTz_-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="440" as="sourcePoint" />
             <mxPoint x="450" y="390" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-59" target="wIyueprsmDtA_w2bcTz_-60">
+        <mxCell id="wIyueprsmDtA_w2bcTz_-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-60" target="wIyueprsmDtA_w2bcTz_-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wIyueprsmDtA_w2bcTz_-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-60" target="wIyueprsmDtA_w2bcTz_-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="440" as="sourcePoint" />
             <mxPoint x="450" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wIyueprsmDtA_w2bcTz_-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-60" target="wIyueprsmDtA_w2bcTz_-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="440" as="sourcePoint" />
-            <mxPoint x="450" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-2" target="I9ZEStOQLEingdoyoiV5-4">
+        <mxCell id="I9ZEStOQLEingdoyoiV5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-2" target="I9ZEStOQLEingdoyoiV5-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-7" value="元数据/特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9ZEStOQLEingdoyoiV5-5">
+        <mxCell id="I9ZEStOQLEingdoyoiV5-7" value="元数据/特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="I9ZEStOQLEingdoyoiV5-5" vertex="1" connectable="0">
           <mxGeometry x="-0.24" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-2" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+        <mxCell id="I9ZEStOQLEingdoyoiV5-2" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
           <mxGeometry x="575" y="260" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-4" value="NoSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="590" y="370" width="60" height="80" as="geometry" />
+        <mxCell id="I9ZEStOQLEingdoyoiV5-4" value="特征数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="590" y="390" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-8" target="wIyueprsmDtA_w2bcTz_-60">
+        <mxCell id="I9ZEStOQLEingdoyoiV5-8" value="数据聚合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="wIyueprsmDtA_w2bcTz_-1" vertex="1">
+          <mxGeometry x="680" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-4" value="消息：文件创建" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;fillColor=#99FFCC;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+          <mxGeometry x="425" y="266.63" width="60" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=0.933;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-17" target="kAIx3pfNfAh_BD7cvOnS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-8" value="OSS/S3：文件创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kAIx3pfNfAh_BD7cvOnS-6">
+          <mxGeometry x="0.0378" y="-3" relative="1" as="geometry">
+            <mxPoint x="68" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.967;exitY=0.472;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="kAIx3pfNfAh_BD7cvOnS-4" target="I9ZEStOQLEingdoyoiV5-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.517;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" target="kAIx3pfNfAh_BD7cvOnS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="202" as="sourcePoint" />
+            <mxPoint x="455" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-10" value="程序：文件创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kAIx3pfNfAh_BD7cvOnS-9">
+          <mxGeometry x="-0.1824" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-17" target="wIyueprsmDtA_w2bcTz_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.58" y="172" as="sourcePoint" />
+            <mxPoint x="280.0024999999999" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="799.58" y="170" />
+              <mxPoint x="799.58" y="640" />
+              <mxPoint x="240" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-19" value="原始数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kAIx3pfNfAh_BD7cvOnS-11">
+          <mxGeometry x="0.2341" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-12" value="数据重整" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+          <mxGeometry x="410" y="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-13" value="原始数据" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="wIyueprsmDtA_w2bcTz_-17" target="kAIx3pfNfAh_BD7cvOnS-12">
+          <mxGeometry x="0.435" y="15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="75" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-14" value="特征数据" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" target="wIyueprsmDtA_w2bcTz_-17">
+          <mxGeometry x="0.0194" y="14" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="120" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="kAIx3pfNfAh_BD7cvOnS-16" target="kAIx3pfNfAh_BD7cvOnS-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I9ZEStOQLEingdoyoiV5-8" value="数据聚合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
-          <mxGeometry x="415" y="380" width="100" height="60" as="geometry" />
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-16" value="运维" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+          <mxGeometry x="316.08" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-4" target="I9ZEStOQLEingdoyoiV5-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-24" value="数据存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+          <mxGeometry x="410" y="145.5" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-8" target="wIyueprsmDtA_w2bcTz_-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;strokeColor=#FF3333;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="kAIx3pfNfAh_BD7cvOnS-29" target="I9ZEStOQLEingdoyoiV5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-31" value="定时触发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kAIx3pfNfAh_BD7cvOnS-30">
+          <mxGeometry x="-0.1154" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-29" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.gauge;" vertex="1" parent="wIyueprsmDtA_w2bcTz_-1">
+          <mxGeometry x="713.8" y="275.26" width="32.4" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-4" target="wIyueprsmDtA_w2bcTz_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAIx3pfNfAh_BD7cvOnS-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="wIyueprsmDtA_w2bcTz_-1" source="I9ZEStOQLEingdoyoiV5-4" target="wIyueprsmDtA_w2bcTz_-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
