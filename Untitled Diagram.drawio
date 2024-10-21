@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
-  <diagram name="Page-1" id="QyplbVSC7AhCvCD_y2EY">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.0" pages="2">
+  <diagram name="AdTech ecosystem" id="QyplbVSC7AhCvCD_y2EY">
+    <mxGraphModel dx="1306" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e_xwsB50zYJpYNlldwKL-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="20" width="500" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-2" value="Publisher&lt;div&gt;/&lt;span style=&quot;background-color: initial;&quot;&gt;Supplier&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry width="110" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-3" value="Direct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="130" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-4" value="Programmatic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="130" y="70" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-5" value="RTB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="130" y="150" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-6" value="Programmatic Direct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="130" y="270" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-7" value="Programmatic&lt;div&gt;Guaranteed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="130" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-8" value="Programmatic&lt;div&gt;Guaranteed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-9" value="&lt;div&gt;Private Marketplace&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="130" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-10" value="Preferred Deal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="250" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8M-sRRa03UQ9vuN93-l-11" value="Advertiser&lt;div&gt;/&lt;span style=&quot;background-color: initial;&quot;&gt;Brand&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="e_xwsB50zYJpYNlldwKL-1">
+          <mxGeometry x="390" width="110" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e_xwsB50zYJpYNlldwKL-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d2ms8rpfqc4h24.cloudfront.net/adtech_software_how_it_works_1_94ce53a435.jpg;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="630.75" height="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_TIl5Jepv-hdnl1sDL6D" name="Page-2">
+    <mxGraphModel dx="1306" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yp4R7YsqMI3paaVE7xBr-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d17ocfn2f5o4rl.cloudfront.net/wp-content/uploads/2023/12/BP-AdTech-Guide_infographic_2.jpg;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="640" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="yp4R7YsqMI3paaVE7xBr-3" value="&lt;h2&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Reference&lt;/span&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: 400;&quot;&gt;https://intellias.com/adtech-development/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;https://radixweb.com/blog/adtech-software-development-guide&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="500" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
