@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="3">
   <diagram id="swXGphNpvIYbbXM5C8od" name="TSDBv1">
     <mxGraphModel dx="1427" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -535,6 +535,325 @@
             <mxPoint x="280" y="400" as="sourcePoint" />
             <mxPoint x="330" y="350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="TSDBv3" id="Gapg2XhuO84wR3YnxdWL">
+    <mxGraphModel dx="1266" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-0" />
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-1" parent="LaCLIiVEJdpGe-KKbqLn-0" />
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-3" value="队列：输入事件" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;dashed=1;strokeWidth=3;imageBorder=default;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="301.08" y="144" width="68.92" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-4" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="60" y="50" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-5" value="DAS&lt;div&gt;设备&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="60" y="231" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-6" value="。。。" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="60" y="141" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-6" target="LaCLIiVEJdpGe-KKbqLn-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="270" as="sourcePoint" />
+            <mxPoint x="250" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-5" target="LaCLIiVEJdpGe-KKbqLn-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" target="LaCLIiVEJdpGe-KKbqLn-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="172" as="sourcePoint" />
+            <mxPoint x="590" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-10" value="实时数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LaCLIiVEJdpGe-KKbqLn-9">
+          <mxGeometry x="0.1148" y="4" relative="1" as="geometry">
+            <mxPoint x="-15" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-11" value="输出API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="192.04" y="510" width="67.23" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-12" value="深度存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="590" y="132" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-14" value="实时存储：ScyllaDB/Aerospike&lt;div&gt;元数据+实时特征&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="540" y="650" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-15" value="数据用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="69.99999999999997" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-16" value="。。。" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="69.99999999999997" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-17" value="数据用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="70" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-11" target="LaCLIiVEJdpGe-KKbqLn-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304.46" y="500" as="sourcePoint" />
+            <mxPoint x="224.45999999999998" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-11" target="LaCLIiVEJdpGe-KKbqLn-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="272.46" y="570" as="sourcePoint" />
+            <mxPoint x="229.45999999999998" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-11" target="LaCLIiVEJdpGe-KKbqLn-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="282.46" y="580" as="sourcePoint" />
+            <mxPoint x="239.45999999999998" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.984;exitY=0.726;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-4" target="LaCLIiVEJdpGe-KKbqLn-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="100" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-22" value="用户/权限" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="195.65" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-22" target="LaCLIiVEJdpGe-KKbqLn-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-24" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;数据量估计&lt;/h3&gt;&lt;div&gt;- 100 设备&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;30 天实时数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- 1 年1小时粒度历史数据&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 10 年1天&lt;span style=&quot;background-color: initial;&quot;&gt;粒度&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;历史数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;原始数据&lt;/h3&gt;&lt;/div&gt;&lt;h4&gt;30 天实时原始数据&lt;/h4&gt;&lt;p&gt;- 采样频率： 5分钟一次&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：100M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：100M x 24&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;12&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=30G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30G&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;3T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备30&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3T = 90T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;依据阿里云OSS的报价，实时数据每年需要支付15万用于实时数据&lt;span style=&quot;background-color: initial;&quot;&gt;存储&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。但是我们可以优化存储：压缩，有目的的存储有用数据，可以进一步降低存储费用。&lt;/span&gt;&lt;/p&gt;&lt;table style=&quot;border-collapse: collapse;&quot; class=&quot;t1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.PingFang SC&amp;quot;;&quot; class=&quot;p1&quot;&gt;存储规格&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.PingFang SC&amp;quot;;&quot; class=&quot;p1&quot;&gt;年价（买&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;s1&quot;&gt; 9 &lt;/span&gt;送&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;s1&quot;&gt; 3&lt;/span&gt;）&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;100 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;156,672&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;200 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;313,344&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;300 TB&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-style: solid; border-width: 1px; border-color: rgb(154, 154, 154); padding: 1px 5px;&quot; class=&quot;td1&quot; valign=&quot;top&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot; class=&quot;p2&quot;&gt;442,368&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;3 年1小时粒度&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;原始数&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;据&lt;/span&gt;&lt;/h4&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;采样频率： 60分钟一次&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：100M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：100M x 24&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=2.4G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;2.4G&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;240G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备1000天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1000&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;240&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;G = 240T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;依据阿里云OSS的报价，实时数据每年需要支付45万用于历史&lt;span style=&quot;background-color: initial;&quot;&gt;原始数&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;据&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;存储&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。但是我们可以优化存储：压缩，有目的的存储有用数据，可以进一步降低存储费用。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;特征数据&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;100天实时特征数据&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- 采样频率： 5分钟一次&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：1M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：1M x 24&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;12&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=300M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;300M&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;30G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备100天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;30G = 3T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3 年1小时粒度&lt;b style=&quot;background-color: initial;&quot;&gt;特征数据&lt;/b&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;采样频率： 60分钟一次&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 一次采样：1M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- 一天采样：1M x 24&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=24M&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一天采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;24M&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2.4G&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100台设备1000天&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;采样：&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1000&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2.4&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;G = 2.4T&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设计&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;根据上述估计，特征数据需要6T的存储空间。为了减低运维成本，使用不需要拓扑发现的scylladb/aerospike/Cassandra是比较可行的选择。&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/Cassandra有特高的写吞吐，而且它们的写操作内部是基于内存日志的，和队列具有相同的逻辑。我们选择&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;假设一个&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb节点有2T的SSD，冗余乘数为3，6T的数据需要6T x 3 = 18T，&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scylladb&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/Cassandra要求系统保留50%的空余空间，需要36&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;T的SSD，所以需要36/2=18个节点。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="50" y="850" width="760" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-26" target="LaCLIiVEJdpGe-KKbqLn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-26" value="输入API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="194.19" y="138.5" width="61.08" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-27" value="缓存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;dashed=1;strokeWidth=3;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="425" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-28" value="聚合数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="600" y="540" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-28" target="LaCLIiVEJdpGe-KKbqLn-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="580" />
+              <mxPoint x="540" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-27" target="LaCLIiVEJdpGe-KKbqLn-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="450" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-34" target="LaCLIiVEJdpGe-KKbqLn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-33" value="元数据/模型数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LaCLIiVEJdpGe-KKbqLn-32">
+          <mxGeometry x="-0.24" y="-3" relative="1" as="geometry">
+            <mxPoint x="14" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-35" value="元数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="595" y="350" width="65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-36" value="数据聚合&lt;div&gt;consumer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="640" y="450.01" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-37" value="队列：文件创建事件" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="425" y="266.63" width="60" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="odIQepSZIyNP7V-ZpdW6-0" target="LaCLIiVEJdpGe-KKbqLn-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-39" value="OSS/S3：文件创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LaCLIiVEJdpGe-KKbqLn-38">
+          <mxGeometry x="0.0378" y="-3" relative="1" as="geometry">
+            <mxPoint x="124" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.483;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-37" target="LaCLIiVEJdpGe-KKbqLn-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.517;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" target="LaCLIiVEJdpGe-KKbqLn-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="202" as="sourcePoint" />
+            <mxPoint x="455" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-42" value="程序：文件创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LaCLIiVEJdpGe-KKbqLn-41">
+          <mxGeometry x="-0.1824" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-45" value="数据重整&lt;div&gt;consumer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="600" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-46" value="原始数据" style="endArrow=classic;html=1;rounded=0;exitX=0.503;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="odIQepSZIyNP7V-ZpdW6-0">
+          <mxGeometry x="0.2" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="130" as="sourcePoint" />
+            <mxPoint x="680" y="90" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-47" value="特征数据" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" target="LaCLIiVEJdpGe-KKbqLn-12">
+          <mxGeometry x="-0.0425" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="90" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="620" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="odIQepSZIyNP7V-ZpdW6-21" target="LaCLIiVEJdpGe-KKbqLn-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-49" value="运维" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="1050.4" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="odIQepSZIyNP7V-ZpdW6-7" target="LaCLIiVEJdpGe-KKbqLn-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="745" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-51" value="数据存储&lt;div&gt;consumer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;dashed=1;strokeWidth=3;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="410" y="145.5" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;strokeColor=#FF3333;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-55" target="odIQepSZIyNP7V-ZpdW6-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-54" value="定时触发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LaCLIiVEJdpGe-KKbqLn-53">
+          <mxGeometry x="-0.1154" y="2" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-55" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.gauge;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="1049" y="464.26" width="32.4" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-35" target="LaCLIiVEJdpGe-KKbqLn-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="440" as="sourcePoint" />
+            <mxPoint x="330" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="522" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-0" value="深度存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="649.8" y="132" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-34" target="odIQepSZIyNP7V-ZpdW6-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="180" as="sourcePoint" />
+            <mxPoint x="238" y="510" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-1" value="深度存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="709.8" y="132" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" target="LaCLIiVEJdpGe-KKbqLn-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="180" as="sourcePoint" />
+            <mxPoint x="719" y="208" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="180" />
+              <mxPoint x="799.58" y="640" />
+              <mxPoint x="226" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaCLIiVEJdpGe-KKbqLn-34" value="数据处理&lt;div&gt;consumer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="400" y="360" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-7" value="特征数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="660" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-8" value="模型数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="720" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-22" target="LaCLIiVEJdpGe-KKbqLn-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-12" value="聚合数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="660" y="540" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-13" value="聚合数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="720" y="540" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-36" target="odIQepSZIyNP7V-ZpdW6-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="755" y="440" as="sourcePoint" />
+            <mxPoint x="755" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-15" value="队列：聚合事件" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="875" y="455.63" width="60" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;strokeColor=#FF3333;exitX=0.067;exitY=0.487;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="odIQepSZIyNP7V-ZpdW6-15" target="LaCLIiVEJdpGe-KKbqLn-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="475" as="sourcePoint" />
+            <mxPoint x="775" y="475.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-17" value="定时触发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="odIQepSZIyNP7V-ZpdW6-16">
+          <mxGeometry x="-0.1154" y="2" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-49" target="odIQepSZIyNP7V-ZpdW6-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1052" y="60" as="sourcePoint" />
+            <mxPoint x="700" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-21" value="队列：重整事件" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;fillColor=#99FFCC;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="885" y="35" width="60" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;strokeColor=#FF0000;entryX=0.525;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="LaCLIiVEJdpGe-KKbqLn-49" target="LaCLIiVEJdpGe-KKbqLn-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1067" y="100" as="sourcePoint" />
+            <mxPoint x="1070" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LaCLIiVEJdpGe-KKbqLn-1" source="odIQepSZIyNP7V-ZpdW6-24" target="LaCLIiVEJdpGe-KKbqLn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="odIQepSZIyNP7V-ZpdW6-24" value="数据管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LaCLIiVEJdpGe-KKbqLn-1">
+          <mxGeometry x="69.99999999999997" y="330" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
